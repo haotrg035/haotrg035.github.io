@@ -1,0 +1,95 @@
+.home-section {
+    .section-header {
+        font-size: var(--size-base-module-title-font);
+        margin: 8px 0;
+        padding: 8px 0;
+        
+        &-text {
+            font-weight: lighter;
+            font-size: var(--size-base-module-text-font);
+            margin: 8px 0;
+        }
+    }
+    
+    .section-item {
+        margin-top: 16px;
+        padding: 8px 8px;
+        height: 100%;
+        position: relative;
+        
+        &-top-icon {
+            width: var(--size-home-section-icon);
+            height: var(--size-home-section-icon);
+            font-size: var(--size-base-module-text-font);
+            background: var(--color-base);
+            border: 2px solid white;
+            border-radius: 50%;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: calc(var(--size-base-height) * 2) auto;
+        }
+        
+        &-title {
+            font-size: 28px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        
+        &-content {
+            font-size: calc(28px / 1.618);
+            
+        }
+    }
+}
+
+.home-service {
+    .section-content {
+        & > div[class*=col-] {
+            margin-top: calc(var(--size-home-section-icon) / 2 + var(--size-base-height));
+        }
+        
+        .section-item {
+            //background: var(--color-base);
+            background: var(--gradient-base);
+            color: var(--color-lighter);
+            padding: calc(var(--size-home-section-icon) / 2 + var(--size-base-height)) 16px 16px 16px;
+            margin: 0;
+            border-radius: var(--size-base-height);
+            box-shadow: var(--shadow-dark);
+            
+            &-top-icon {
+                position: absolute;
+                bottom: calc(100% - (var(--size-home-section-icon) / 2));
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+                transform: translateX(-50%);
+                background: var(--gradient-base);
+                margin: 0;
+                
+            }
+            
+            &-footer {
+                text-align: center;
+                margin-top: calc(var(--size-base-height) * 2);
+    
+                .btn-watch {
+                    color: var(--color-dark);
+                    background: var(--color-lighter);
+                    box-shadow: var(--shadow-on-base);
+                    transition: var(--transition-nav);
+                    
+                    &:hover {
+                        background: var(--color-base-darker);
+                        color: var(--color-lighter);
+                        box-shadow: var(--shadow-dark);
+                    }
+                }
+            }
+        }
+    }
+}

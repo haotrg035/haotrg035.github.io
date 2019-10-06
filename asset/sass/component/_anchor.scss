@@ -1,0 +1,14 @@
+.link {
+    &, &:hover, &:visited, &:focus {
+        text-decoration: none;
+    }
+    
+}
+
+.link-base {
+    color: var(--color-base);
+    
+    &:hover {
+        color: var(--color-base-darker);
+    }
+}
