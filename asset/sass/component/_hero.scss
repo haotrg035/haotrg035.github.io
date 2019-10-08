@@ -1,0 +1,66 @@
+#page-hero {
+    height: calc(100vh - (var(--size-nav-height) + 20px));
+    background: linear-gradient(25deg, var(--color-base-darker), var(--color-base), var(--color-base));
+    position: relative;
+    
+    .jumbotron {
+        background-color: transparent;
+        color: var(--color-nav-text);
+        margin: 0;
+        background-image: url("../images/hero.png");
+        background-size: 70% auto;
+        background-position: 100% center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-content: center;
+        
+        .hero {
+            &-header {
+                font-size: 48px;
+                margin-bottom: calc(var(--size-base-height) * 3);
+                
+            }
+            
+            &-content {
+                font-size: 18px;
+                margin-bottom: calc(var(--size-base-height) * 3);
+                
+            }
+        }
+        
+        .btn-hero-contact {
+            background: var(--color-dark);
+            color: #ffffff;
+            box-shadow: 4px 4px 1px var(--color-base-darker);
+            transition: var(--transition-nav);
+            
+            &:hover {
+                background: var(--color-base-darker);
+                box-shadow: 4px 4px 1px var(--color-dark);
+            }
+        }
+        
+    }
+    
+    #btn-hero-scroll-down {
+        display: block;
+        position: absolute;
+        font-size: 60px;
+        color: #ffffff;;
+        bottom: 10%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        transition: var(--transition-nav);
+        -webkit-animation: smooth-float;
+        -o-animation: smooth-float;
+        animation: smooth-float;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: both;
+        animation-timing-function: ease-in-out;
+    }
+}

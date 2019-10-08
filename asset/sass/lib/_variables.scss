@@ -1,0 +1,64 @@
+:root {
+    //--color-base: #7C4DFF;
+    //--color-base-variant: #9575CD;
+    //--color-base-lighter: #B39DDB;
+    //--color-base-darker: #1A237E;
+    //--color-dark: #212529;
+    --color-base: #3aafa9;
+    --color-base-transparent: rgba(58, 175, 169, 0.8);
+    --color-base-variant: #07889b;
+    --color-base-lighter: #07a1b4;
+    --color-base-darker: #2b7a78;
+    --color-base-shadow: rgba(0, 0, 0, 0.5);
+    --color-dark: #17252a;
+    --color-light: #def2f1;
+    --color-lighter: #feffff;
+    --gradient-base: linear-gradient(45deg, var(--color-base-darker), var(--color-base));
+    --size-base-height: 8px;
+    --size-base-font: 14px;
+    --size-base-module-title-font: 38px;
+    --size-base-module-text-font: calc(var(--size-base-module-title-font) / 1.618);
+    --shadow-base: 0px 0px 4px 1px var(--color-base);
+    --shadow-on-base: 0px 0px 4px 1px var(--color-base-darker);
+    --shadow-dark: 0px 0px 3px 0px var(--color-dark);
+    //  Header
+    --size-nav-height: 44px;
+    --size-nav-height-scroll: 38px;
+    --size-nav-item-font: 18px;
+    --size-nav-item-font-scroll: 16px;
+    --size-nav-logo-font: calc(var(--size-nav-item-font) * 1.618);
+    --size-nav-logo-font-scroll: calc(var(--size-nav-item-font-scroll) * 1.618);
+    --transition-nav: all .15s ease-in-out;
+    --transition-section-item: all .5s ease-in-out;
+    --color-nav-bg: var(--color-base);
+    --color-nav-bg-dark: var(--color-base-darker);
+    --color-nav-bg-scroll: rgba(255, 255, 255, 0.95);
+    --color-nav-text: var(--color-lighter);
+    --color-nav-text-scroll: var(--color-base);
+    //Index
+    --size-home-section-title-font: 28px;
+    --size-home-section-text-font: calc(var(--size-home-about-title-font) / 1.618);
+    --size-home-section-icon: 64px;
+}
+
+.color {
+    &-base {
+        &-text {
+            color: var(--color-base);
+        }
+        
+        &-bg {
+            background: var(--color-base);
+        }
+        
+        &-darker {
+            &-text {
+                color: var(--color-base-darker);
+            }
+            
+            &-bg {
+                background: var(--color-base-darker);
+            }
+        }
+    }
+}
