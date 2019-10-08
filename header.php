@@ -28,11 +28,11 @@
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Bảng Giá</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" id="" data-toggle="dropdown">
-                            Dropdown <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            Dịch Vụ <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </a>
                         <ul class="dropdown-menu">
                             <li class="nav-item">
@@ -81,6 +81,9 @@
                                 <a class="nav-link" href="#">Link</a>
                             </li>
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên Hệ</a>
                     </li>
                     <li class="nav-item form-nav-search">
                         <form action="#">

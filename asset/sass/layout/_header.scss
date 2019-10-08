@@ -81,9 +81,9 @@
                             margin: 0;
                             
                             &.dropdown-menu-sub {
+                                z-index: 10;
                                 opacity: 1;
-                                
-                                right: 100%;
+                                right: 94%;
                             }
                         }
                         
@@ -130,7 +130,7 @@
                             
                             &.show {
                                 border-style: solid;
-                                border-width: 0 0 4px 0;
+                                border-width: 0 0 2px 0;
                                 border-color: transparent transparent var(--color-base) transparent;
                                 width: 200px;
                                 padding: 5px 10px;

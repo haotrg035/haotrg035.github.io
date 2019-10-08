@@ -20,7 +20,7 @@
     --size-base-module-text-font: calc(var(--size-base-module-title-font) / 1.618);
     --shadow-base: 0px 0px 4px 1px var(--color-base);
     --shadow-on-base: 0px 0px 4px 1px var(--color-base-darker);
-    --shadow-dark: 0px 0px 3px 1px var(--dark);
+    --shadow-dark: 0px 0px 3px 0px var(--color-dark);
     //  Header
     --size-nav-height: 44px;
     --size-nav-height-scroll: 38px;
@@ -28,7 +28,8 @@
     --size-nav-item-font-scroll: 16px;
     --size-nav-logo-font: calc(var(--size-nav-item-font) * 1.618);
     --size-nav-logo-font-scroll: calc(var(--size-nav-item-font-scroll) * 1.618);
-    --transition-nav: all .3s ease-in-out;
+    --transition-nav: all .15s ease-in-out;
+    --transition-section-item: all .5s ease-in-out;
     --color-nav-bg: var(--color-base);
     --color-nav-bg-dark: var(--color-base-darker);
     --color-nav-bg-scroll: rgba(255, 255, 255, 0.95);

@@ -1,6 +1,7 @@
 #page-hero {
     height: calc(100vh - (var(--size-nav-height) + 20px));
     background: linear-gradient(25deg, var(--color-base-darker), var(--color-base), var(--color-base));
+    position: relative;
     
     .jumbotron {
         background-color: transparent;
@@ -16,13 +17,14 @@
         .hero {
             &-header {
                 font-size: 48px;
-                margin-bottom: var(--size-base-height);
+                margin-bottom: calc(var(--size-base-height) * 3);
                 
             }
             
             &-content {
                 font-size: 18px;
-                margin-bottom: var(--size-base-height);
+                margin-bottom: calc(var(--size-base-height) * 3);
+                
             }
         }
         
@@ -30,6 +32,12 @@
             background: var(--color-dark);
             color: #ffffff;
             box-shadow: 4px 4px 1px var(--color-base-darker);
+            transition: var(--transition-nav);
+            
+            &:hover {
+                background: var(--color-base-darker);
+                box-shadow: 4px 4px 1px var(--color-dark);
+            }
         }
         
     }

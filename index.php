@@ -3,7 +3,7 @@
     <section id="page-hero">
         <div class="jumbotron">
             <div class="container">
-                <div class="row">
+                <div class="section-content row">
                     <div class="col-lg-7">
                         <h1 class="hero-header font-weight-bold">GIẢI PHÁP WEBSITE ƯU VIỆT</h1>
                         <div class="hero-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fugit
@@ -14,7 +14,7 @@
                             eos repudiandae sequi. Ab, ipsum.
                         </div>
                         <a class="btn btn-lg rounded-0 btn-hero-contact" href="#" role="button">
-                            TÌM HIỂU NGAY
+                            TÌM HIỂU THÊM
                         </a>
                     </div>
                     <div class="col-lg-5">
@@ -27,7 +27,7 @@
             <i class="fa fa-angle-double-down" aria-hidden="true"></i>
         </a>
     </section>
-    <section class="home-section home-about py-4">
+    <section class="home-section home-about">
         <div class="container">
             <div class="row align-items-stretch">
                 <div class="col-12">
@@ -47,60 +47,93 @@
                         <div class="section-item-content text-justify">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad alias aliquam
                             assumenda facilis in, laudantium magni nam possimus quam recusandae reprehenderit saepe sunt
-                            tempore ut! Ad cum numquam qui? Lorem ipsum dolor sit amet
-                            recusandae reprehenderit saepe sunt
-                            tempore ut! Ad cum numquam qui? Lorem ipsum dolor sit amet
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section-item">
-                        <h3 class="section-item-title text-center">Lorem olore eligendi</h3>
-                        <div class="section-item-content text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad alias aliquam
-                            assumenda facilis in, laudantium magni nam possimus quam recusandae reprehenderit saepe sunt
-                            tempore ut! Ad cum numquam qui? Lorem ipsum dolor sit amet recusandae reprehenderit saepe
-                            sunt
-                            tempore ut! Ad cum numquam qui? Lorem ipsum dolor sit amet
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section-item">
-                        <h3 class="section-item-title text-center">Lorem olore eligendi</h3>
-                        <div class="section-item-content text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad alias aliquam
-                            assumenda facilis in, laudantium magni nam possimus quam recusandae reprehenderit saepe sunt
-                            tempore ut! Ad cum numquam qui? Lorem ipsum dolor sit amet
-                            Lorem ipsum dolor sit amet laudantium magni nam possimus quam
-                            possimus quam recusandae reprehenderit saepe sunt
                             tempore ut! Ad cum numquam qui?
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section-item">
+                        <h3 class="section-item-title text-center">Lorem olore eligendi</h3>
+                        <div class="section-item-content text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad alias aliquam
+                            assumenda facilis in, laudantium magni nam possimus quam recusandae reprehenderit saepe sunt
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section-item">
+                        <h3 class="section-item-title text-center">Lorem olore eligendi</h3>
+                        <div class="section-item-content text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad alias aliquam
+                            assumenda facilis in, laudantium magni nam possimus quam recusandae reprehenderit saepe sunt
+                            tempore ut! Ad cum numquam qui? Lorem ipsum dolor sit
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="home-section home-service py-4">
+    <section class="home-section home-service">
         <div class="container">
             <h2 class="section-header text-center">
-                CÁC DỊCH VỤ <span class="color-base-text text-center">WEBCORE</span> CUNG CẤP
+                CÁC DỊCH VỤ <span class="color-base-text">WEBCORE</span> CUNG CẤP
+            </h2>
+            <div class="section-content row">
+                <div class="col-6 col-lg-4">
+                    <div class="section-item">
+                        <div class="section-item-background">
+                            <img src="asset/images/webdesign-1200x635.jpg" alt="">
+                        </div>
+                        <div class="section-item-title">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                            <span>THIẾT KẾ WEBSITE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <div class="section-item">
+                        <div class="section-item-background">
+                            <img src="asset/images/webdesign-1200x635.jpg" alt="">
+                        </div>
+                        <div class="section-item-title">
+                            <i class="fa fa-line-chart" aria-hidden="true"></i>
+                            <span>ONLINE MARKETING</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <div class="section-item">
+                        <div class="section-item-background">
+                            <img src="asset/images/webdesign-1200x635.jpg" alt="">
+                        </div>
+                        <div class="section-item-title">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                            <span>HOSTING - SERVER</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="home-section home-pricing">
+        <div class="container">
+            <h2 class="section-header text-center">
+                BẢNG <span class="color-base-text">PHÍ DỊCH VỤ</span> THAM KHẢO
             </h2>
             <div class="section-content row">
                 <div class="col-lg-4">
                     <div class="section-item">
                         <figure class="section-item-top-icon">
-                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                            #1
                         </figure>
                         <h5 class="section-item-title">THIẾT KẾ WEBSITE</h5>
                         <div class="section-item-content text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, libero vero? Aspernatur
-                            ea earum facilis iure laborum molestiae nemo nobis officia praesentium quas quod quos
-                            recusandae, repellat reprehenderit voluptatem? Veniam!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, libero vero.
                         </div>
                         <div class="section-item-footer">
                             <a href="javascript:void(0)" class="btn btn-watch">
-                                <i class="fa fa-eye" aria-hidden="true"></i> XEM THÊM
+                                <span class="">CHI TIẾT</span>
                             </a>
                         </div>
                     </div>
@@ -108,17 +141,15 @@
                 <div class="col-lg-4">
                     <div class="section-item">
                         <figure class="section-item-top-icon">
-                            <i class="fa fa-line-chart" aria-hidden="true"></i>
+                            #2
                         </figure>
                         <h5 class="section-item-title">ONLINE MARKETING</h5>
                         <div class="section-item-content text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, libero vero? Aspernatur
-                            ea earum facilis iure laborum molestiae nemo nobis officia praesentium quas quod quos
-                            recusandae, repellat reprehenderit voluptatem? Veniam!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, libero vero.
                         </div>
                         <div class="section-item-footer">
                             <a href="javascript:void(0)" class="btn btn-watch">
-                                <i class="fa fa-eye" aria-hidden="true"></i> XEM THÊM
+                                <span class="">CHI TIẾT</span>
                             </a>
                         </div>
                     </div>
@@ -126,17 +157,16 @@
                 <div class="col-lg-4">
                     <div class="section-item">
                         <figure class="section-item-top-icon">
-                            <i class="fa fa-server" aria-hidden="true"></i>
+                            #3
                         </figure>
                         <h5 class="section-item-title">HOSTING - SERVER</h5>
                         <div class="section-item-content text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, libero vero? Aspernatur
-                            ea earum facilis iure laborum molestiae nemo nobis officia praesentium quas quod quos
-                            recusandae, repellat reprehenderit voluptatem? Veniam!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, libero vero.
+
                         </div>
                         <div class="section-item-footer">
                             <a href="javascript:void(0)" class="btn btn-watch">
-                                <i class="fa fa-eye" aria-hidden="true"></i> XEM THÊM
+                                <span class="">CHI TIẾT</span>
                             </a>
                         </div>
                     </div>
