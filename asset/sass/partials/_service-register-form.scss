@@ -1,0 +1,56 @@
+.form-service-register-container {
+    align-items: stretch;
+    color: var(--color-light);
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    
+    .form-service-register-image {
+        height: 100%;
+        background-image: url("../images/webdesign-1200x635.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    
+    .form-service-register {
+        background: var(--color-dark);
+        padding: calc(var(--size-base-height) * 5) calc(var(--size-base-height) * 8);
+        
+        @include Responsive(LG) {
+            padding: calc(var(--size-base-height) * 5) calc(var(--size-base-height) * 3);;
+        }
+        
+        .form-group {
+            & > label {
+                font-weight: bold;
+            }
+            
+            & > .form-control {
+                box-sizing: border-box;
+                box-shadow: none;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                color: rgba(255, 255, 255, 0.8);
+                background: inherit;
+                transition: var(--transition-nav);
+                
+                &::placeholder {
+                    color: rgba(255, 255, 255, 0.5);
+                }
+                
+                &:focus {
+                    border-color: white;
+                }
+            }
+        }
+        
+        & > .btn[type=submit] {
+            transition: var(--transition-nav);
+            
+            &:hover {
+                background: var(--color-base);
+            }
+        }
+    }
+}

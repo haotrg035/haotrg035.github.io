@@ -118,6 +118,9 @@ a:hover {
   height: calc(100vh - (var(--size-nav-height) + 20px));
   background: linear-gradient(25deg, var(--color-base-darker), var(--color-base), var(--color-base));
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #page-hero .jumbotron {
   background-color: transparent;
@@ -488,12 +491,12 @@ a:hover {
 
 #page-footer {
   background: var(--color-dark);
-  padding: calc(var(--size-base-height) * 8) 0;
+  padding: calc(var(--size-base-height) * 5) 0;
   color: #ffffff;
   font-size: 15px;
 }
 #page-footer .footer-email-contact {
-  margin-bottom: calc(var(--size-base-height) * 2);
+  margin-bottom: calc(var(--size-base-height) * 5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -506,10 +509,14 @@ a:hover {
   text-align: center;
   border: none;
   padding: 0;
-  background: white;
-  color: var(--color-base-darker);
+  background: var(--color-base-darker);
+  color: white;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+  transition: var(--transition-nav);
+}
+#page-footer .footer-email-contact button:hover {
+  background: var(--color-base);
 }
 #page-footer .footer-email-contact input {
   background: #ffffff;
@@ -520,6 +527,11 @@ a:hover {
 }
 #page-footer .footer-email-contact input::placeholder {
   color: var(--color-base-darker);
+}
+@media only screen and (max-width: 375px) {
+  #page-footer .footer-email-contact input {
+    width: calc(100% - 38px);
+  }
 }
 #page-footer .footer-item .footer-item-header {
   font-size: 18px;
@@ -537,7 +549,7 @@ a:hover {
   margin-bottom: var(--size-base-height);
 }
 #page-footer .footer-item.footer-item-about-us .footer-item-body ul li .fa {
-  width: 25px;
+  width: 24px;
   font-size: 16px;
   text-align: center;
   color: var(--color-base);
@@ -559,9 +571,63 @@ a:hover {
   font-size: 18px;
 }
 @media only screen and (max-width: 992px) {
+  #page-footer .footer-item.footer-item-list .footer-item-body ul li:before {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 992px) {
   #page-footer .footer-item {
     margin-bottom: calc(var(--size-base-height) * 2);
   }
+}
+
+.form-service-register-container {
+  align-items: stretch;
+  color: var(--color-light);
+  box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+.form-service-register-container .form-service-register-image {
+  height: 100%;
+  background-image: url("../images/webdesign-1200x635.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.form-service-register-container .form-service-register {
+  background: var(--color-dark);
+  padding: calc(var(--size-base-height) * 5) calc(var(--size-base-height) * 8);
+}
+@media only screen and (max-width: 992px) {
+  .form-service-register-container .form-service-register {
+    padding: calc(var(--size-base-height) * 5) calc(var(--size-base-height) * 3);
+  }
+}
+.form-service-register-container .form-service-register .form-group > label {
+  font-weight: bold;
+}
+.form-service-register-container .form-service-register .form-group > .form-control {
+  box-sizing: border-box;
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  background: inherit;
+  transition: var(--transition-nav);
+}
+.form-service-register-container .form-service-register .form-group > .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.form-service-register-container .form-service-register .form-group > .form-control:focus {
+  border-width: 2px;
+  border-color: white;
+}
+.form-service-register-container .form-service-register > .btn[type=submit] {
+  transition: var(--transition-nav);
+}
+.form-service-register-container .form-service-register > .btn[type=submit]:hover {
+  background: var(--color-base);
 }
 
 body {
@@ -582,7 +648,7 @@ body {
 }
 .home-section .section-header {
   font-size: var(--size-base-module-title-font);
-  margin: 8px 0;
+  margin: calc(var(--size-base-height) * 2) 0;
 }
 .home-section .section-header-text {
   font-weight: lighter;

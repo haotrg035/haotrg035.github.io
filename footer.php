@@ -5,7 +5,7 @@
                 <div class="footer-item footer-email-contact">
                     <div class="footer-item-header">LIÊN HỆ</div>
                     <form class="form-inline">
-                        <div class="form-group">
+                        <div class="form-group d-flex align-items-center">
                             <input type="email" name="" id="" class="form-control"
                                    placeholder="Nhập địa chỉ email của bạn" required>
                             <button><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
@@ -18,6 +18,9 @@
                     <div class="footer-item-header">VỀ CHÚNG TÔI</div>
                     <div class="footer-item-body">
                         <ul>
+                            <li>
+                               CÔNG TY GIẢI PHÁP CÔNG NGHỆ <span class="color-base-text font-weight-bold">WEBCORE</span>
+                            </li>
                             <li>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolor expedita illo
                                 illum

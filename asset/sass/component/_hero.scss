@@ -2,6 +2,9 @@
     height: calc(100vh - (var(--size-nav-height) + 20px));
     background: linear-gradient(25deg, var(--color-base-darker), var(--color-base), var(--color-base));
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
     .jumbotron {
         background-color: transparent;

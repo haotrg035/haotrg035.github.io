@@ -1,9 +1,15 @@
+$XS: 375px;
 $SM: 576px;
 $MD: 768px;
 $LG: 992px;
 $XL: 1200px;
 
 @mixin Responsive($breakpoint) {
+    @if ($breakpoint == XS) {
+        @media only screen and (max-width: $XS) {
+            @content
+        }
+    }
     @if ($breakpoint == SM) {
         @media only screen and (max-width: $SM) {
             @content

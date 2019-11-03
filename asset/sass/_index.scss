@@ -15,7 +15,7 @@
     
     .section-header {
         font-size: var(--size-base-module-title-font);
-        margin: 8px 0;
+        margin: calc(var(--size-base-height) * 2) 0;
         
         &-text {
             font-weight: lighter;
