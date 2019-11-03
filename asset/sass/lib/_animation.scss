@@ -11,3 +11,16 @@
         bottom: 5%;
     }
 }
+@keyframes smooth-float-md {
+    0% {
+        bottom: 0%;
+    }
+    
+    50% {
+        bottom: 2%;
+    }
+    
+    100% {
+        bottom: 0%;
+    }
+}

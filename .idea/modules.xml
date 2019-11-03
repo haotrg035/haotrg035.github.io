@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../thietkeweb-theme/.idea/thietkeweb-theme.iml" filepath="$PROJECT_DIR$/../thietkeweb-theme/.idea/thietkeweb-theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/thietkeweb.iml" filepath="$PROJECT_DIR$/.idea/thietkeweb.iml" />
     </modules>
   </component>
 </project>

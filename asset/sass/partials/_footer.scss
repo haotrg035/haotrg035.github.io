@@ -1,0 +1,108 @@
+#page-footer {
+    background: var(--color-dark);
+    padding: calc(var(--size-base-height) * 8) 0;
+    color: #ffffff;
+    font-size: 15px;
+    
+    .footer-email-contact {
+        margin-bottom: calc(var(--size-base-height) * 2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        button {
+            width: 38px;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            border: none;
+            padding: 0;
+            background: white;
+            color: var(--color-base-darker);
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+        
+        input {
+            background: #ffffff;
+            color: var(--color-base-darker);
+            height: 38px;
+            width: 300px;
+            box-shadow: none;
+            
+            &::placeholder {
+                color: var(--color-base-darker);
+            }
+        }
+        
+    }
+    
+    .footer-item {
+        
+        .footer-item-header {
+            font-size: 18px;
+            margin-bottom: calc(var(--size-base-height) * 2);
+            font-weight: bold;
+        }
+        
+        .footer-item-body {
+            
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin-bottom: 0;
+                
+                li {
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-bottom: var(--size-base-height);
+                    
+                }
+            }
+        }
+        
+        &.footer-item-about-us {
+            .footer-item-body {
+                ul {
+                    li {
+                        
+                        .fa {
+                            width: 25px;
+                            font-size: 16px;
+                            text-align: center;
+                            color: var(--color-base);
+                        }
+                    }
+                }
+            }
+        }
+        
+        &.footer-item-list {
+            .footer-item-body {
+                ul {
+                    li {
+                        
+                        padding-left: 1em;
+                        
+                        &:before {
+                            content: "\f105"; /* FontAwesome Unicode */
+                            font-family: FontAwesome;
+                            display: inline-block;
+                            margin-left: -1em; /* same as padding-left set on li */
+                            width: 1em; /* same as padding-left set on li */
+                            color: var(--color-base);
+                            font-weight: bold;
+                            font-size: 18px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        
+        @include Responsive(LG) {
+            margin-bottom: calc(var(--size-base-height) * 2);
+        }
+    }
+}

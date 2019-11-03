@@ -23,11 +23,11 @@
                 </div>
             </div>
         </div>
-        <a href="javascript:void(0)" id="btn-hero-scroll-down">
+        <a href="#home-about" id="btn-hero-scroll-down">
             <i class="fa fa-angle-double-down" aria-hidden="true"></i>
         </a>
     </section>
-    <section class="home-section home-about">
+    <section id="home-about" class="home-section home-about">
         <div class="container">
             <div class="row align-items-stretch">
                 <div class="col-12">
@@ -175,9 +175,4 @@
         </div>
     </section>
 
-    <section style="height: 100vh">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa delectus distinctio fugit magnam magni
-        molestias necessitatibus saepe suscipit voluptatum. Ab aperiam debitis dolorum error minus quos reiciendis
-        reprehenderit velit.
-    </section>
 <?php include "./footer.php"; ?>

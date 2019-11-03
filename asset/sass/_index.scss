@@ -5,6 +5,7 @@
         &.row {
             margin-left: calc(-1 * (var(--size-base-height)));
             margin-right: calc(-1 * (var(--size-base-height)));
+            
             & > div[class*=col-] {
                 padding: 0 var(--size-base-height);
                 margin: calc(var(--size-base-height) * 2) 0 0 0;
@@ -140,7 +141,7 @@
             
             & > div[class*=col-] {
                 margin: calc(var(--size-base-height) * 5) 0 0 0;
-    
+                
             }
         }
         

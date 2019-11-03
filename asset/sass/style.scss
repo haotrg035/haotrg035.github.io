@@ -1,7 +1,10 @@
 @import "lib/variables";
 @import "lib/animation";
+@import "lib/mixin";
 @import "component/anchor";
+@import "component/input";
 @import "component/hero";
-@import "layout/header";
+@import "partials/header";
+@import "partials/footer";
 @import "layout/wrapper";
-@import "layout/index";
+@import "index";

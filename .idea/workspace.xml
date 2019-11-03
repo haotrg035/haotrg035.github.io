@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de40af7e-4dc2-405c-aa05-4171edd9d8e1" name="Default Changelist" comment="">
+    <list default="true" id="54349653-89fb-4451-ac73-43349353ffd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/asset/sass/component/_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/sass/lib/_mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/sass/partials/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/thietkeweb-theme.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/sass/component/_anchor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/component/_anchor.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/sass/component/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/component/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/sass/layout/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/layout/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/sass/lib/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/lib/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/sass/layout/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/sass/lib/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/lib/_animation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -24,83 +37,19 @@
       <executable />
     </execution>
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-        <option value="XSLT Stylesheet" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
-    <include_path>
-      <path value="/usr/share/php" />
-    </include_path>
-  </component>
-  <component name="ProjectId" id="1RNoqLeKrrJX5qAL0RmWzpofDFG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1T5tamDyer1EnqaPlzFXmvIlOLg" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/media/haotrg035/General/Vietcore/laptop" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.stylelint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="node.js.selected.package.stylelint" value="" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/asset/images" />
-      <recent name="$PROJECT_DIR$/lib/sticky" />
-      <recent name="$PROJECT_DIR$/lib/fontawsome" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/lib/jquery" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/asset/sass/layout" />
-      <recent name="$PROJECT_DIR$/asset/sass/component" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lib/fontawsome/css" />
-      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/asset/sass" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,28 +69,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de40af7e-4dc2-405c-aa05-4171edd9d8e1" name="Default Changelist" comment="" />
-      <created>1568970257037</created>
+      <changelist id="54349653-89fb-4451-ac73-43349353ffd5" name="Default Changelist" comment="" />
+      <created>1572761849583</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568970257037</updated>
-      <workItem from="1568970258663" duration="1565000" />
-      <workItem from="1569281992518" duration="1457000" />
-      <workItem from="1569517104628" duration="1500000" />
-      <workItem from="1569520033780" duration="1375000" />
-      <workItem from="1569521536946" duration="1505000" />
-      <workItem from="1569864093639" duration="12439000" />
-      <workItem from="1569895849035" duration="6690000" />
-      <workItem from="1569912029005" duration="820000" />
-      <workItem from="1569942346712" duration="8408000" />
-      <workItem from="1569978792247" duration="81000" />
-      <workItem from="1570066591567" duration="1080000" />
-      <workItem from="1570086056260" duration="3808000" />
-      <workItem from="1570091294805" duration="88000" />
-      <workItem from="1570112825325" duration="10507000" />
-      <workItem from="1570124676218" duration="788000" />
-      <workItem from="1570154480713" duration="430000" />
-      <workItem from="1570468670625" duration="11273000" />
+      <updated>1572761849583</updated>
+      <workItem from="1572761851040" duration="580000" />
     </task>
     <servers />
   </component>
@@ -153,9 +86,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
