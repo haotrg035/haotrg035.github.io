@@ -49,19 +49,30 @@
                         line-height: var(--size-nav-height);
                         font-size: var(--size-nav-item-font);
                         transition: var(--transition-nav);
-                        @include Responsive(LG) {
-                            height: var(--size-nav-height-scroll);
-                            line-height: var(--size-nav-height-scroll);
-                            font-size: var(--size-nav-item-font-scroll);
-                            color: var(--color-nav-text-scroll);
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                        }
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
                         
                         &:hover {
                             background: var(--color-base-shadow);
                             color: var(--color-nav-text);
+                            
+                            @include Responsive(LG) {
+                                background: var(--color-base);
+                            }
+                        }
+                        
+                        @include Responsive(LG) {
+                            height: var(--size-nav-height-scroll) !important;
+                            line-height: var(--size-nav-height-scroll) !important;
+                            font-size: var(--size-nav-item-font-scroll) !important;
+                            color: var(--color-nav-text-scroll);
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 1px solid var(--color-base);
+                            
                         }
                     }
                     
@@ -74,7 +85,7 @@
                         background: var(--color-nav-bg-scroll);
                         border-radius: 0;
                         border: none;
-                        box-shadow: 0px 2px 2px 1px var(--color-base-shadow);
+                        box-shadow: 0 2px 6px -3px var(--color-base-shadow);
                         transition: var(--transition-nav);
                         
                         @include Responsive(LG) {
@@ -92,6 +103,7 @@
                             visibility: hidden;
                             transition: max-height 0.4s ease-in-out;
                             box-shadow: none;
+                            background: transparent;
                             
                             &.show {
                                 z-index: 1;
@@ -101,7 +113,7 @@
                         }
                         
                         .nav-link {
-                            padding: 0 15px;
+                            padding: 0 15px 0 30px;
                             color: var(--color-nav-text-scroll);
                             height: var(--size-nav-height);
                             line-height: var(--size-nav-height);
@@ -127,7 +139,7 @@
                             }
                             
                             @include Responsive(LG) {
-                                padding-left: 15px;
+                            
                             }
                         }
                     }
@@ -140,9 +152,9 @@
                                 margin: 0;
                                 
                                 &.dropdown-menu-sub {
-                                    z-index: 10;
+                                    z-index: -1;
                                     opacity: 1;
-                                    right: 94%;
+                                    right: 100%;
                                 }
                             }
                         }
@@ -155,6 +167,7 @@
                     
                     @include Responsive(LG) {
                         padding: 0 15px;
+                        margin-top: 15px;
                     }
                     
                     form {
@@ -171,16 +184,14 @@
                             transition: var(--transition-nav);
                             cursor: pointer;
                             
-                            @include ResponsiveMin(LG) {
+                            @include Responsive(LG) {
                                 &:hover {
                                     background-color: rgba(0, 0, 0, 0.5);
                                     color: var(--color-lighter) !important;
                                 }
-                            }
-                            
-                            @include Responsive(LG) {
+                                
                                 background: var(--color-base);
-                                width: var(--size-nav-height-scroll);
+                                width: var(--size-nav-height-scroll) !important;
                                 justify-content: center !important;
                                 align-items: center !important;
                                 float: left;
@@ -295,6 +306,10 @@
         box-shadow: 0px 1px 9px 3px rgba(0, 0, 0, 0.1);
         background-color: var(--color-nav-bg-scroll);
         
+        //@include Responsive(LG){
+        //    background-color: var(--color-nav-bg-scroll);
+        //}
+        
         .navbar {
             .navbar-brand {
                 font-size: var(--size-nav-logo-font-scroll);
@@ -328,6 +343,10 @@
                         
                         .dropdown-menu {
                             background: var(--color-nav-bg-scroll);
+                            
+                            @include Responsive(LG) {
+                                background: transparent;
+                            }
                         }
                     }
                     

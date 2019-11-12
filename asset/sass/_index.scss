@@ -134,6 +134,8 @@
 
 .home-pricing {
     .section-content {
+        margin-top: calc(var(--size-base-height) * 6);
+        
         &.row {
             //margin-left: calc(-1 * (var(--size-base-height)));
             //margin-right: calc(-1 * (var(--size-base-height)));
@@ -150,11 +152,20 @@
             color: var(--color-lighter);
             padding: calc(var(--size-home-section-icon) / 2) 16px 16px 16px;
             margin: 0;
-            border-radius: var(--size-base-height);
-            box-shadow: var(--shadow-dark);
+            display: flex;
+            flex-direction: column;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+      
             
             &-title {
-                margin: 16px 0;
+                margin: calc(var(--size-base-height) * 2) 0;
+                padding: var(--size-base-height) 0;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
             }
             
             &-top-icon {
@@ -169,6 +180,13 @@
                 background: var(--gradient-base);
                 margin: 0;
                 font-size: 28px;
+            }
+            
+            &-content {
+                display: flex;
+                flex-direction: column;
+                flex: 1 0 auto;
+                
             }
             
             &-footer {
@@ -186,6 +204,62 @@
                         color: var(--color-lighter);
                         box-shadow: var(--shadow-dark);
                     }
+                }
+            }
+            
+            //&:hover {
+            //    z-index: 11;
+            //}
+            
+            @include ResponsiveMin(LG) {
+                
+                &.pricing-left {
+                    -webkit-transform: translateX(24px) scale(.9);
+                    -moz-transform: translateX(24px) scale(.9);
+                    -ms-transform: translateX(24px) scale(.9);
+                    -o-transform: translateX(24px) scale(.9);
+                    transform: translateX(24px) scale(.9);
+                    //
+                    //&:hover {
+                    //    -webkit-transform: translateX(0) scale(1.2);
+                    //    -moz-transform: translateX(0) scale(1.2);
+                    //    -ms-transform: translateX(0) scale(1.2);
+                    //    -o-transform: translateX(0) scale(1.2);
+                    //    transform: translateX(0) scale(1.2);
+                    //    -webkit-box-shadow: var(--shadow-dark);
+                    //    -moz-box-shadow: var(--shadow-dark);
+                    //    box-shadow: var(--shadow-dark);
+                    //}
+                    
+                }
+                &.pricing-right {
+                    -webkit-transform: translateX(-24px) scale(.9);
+                    -moz-transform: translateX(-24px) scale(.9);
+                    -ms-transform: translateX(-24px) scale(.9);
+                    -o-transform: translateX(-24px) scale(.9);
+                    transform: translateX(-24px) scale(.9);
+                    
+                    //&:hover {
+                    //    -webkit-transform: translateX(0) scale(1.2);
+                    //    -moz-transform: translateX(0) scale(1.2);
+                    //    -ms-transform: translateX(0) scale(1.2);
+                    //    -o-transform: translateX(0) scale(1.2);
+                    //    transform: translateX(0) scale(1.2);
+                    //    -webkit-box-shadow: var(--shadow-dark);
+                    //    -moz-box-shadow: var(--shadow-dark);
+                    //    box-shadow: var(--shadow-dark);
+                    //}
+                }
+                &.pricing-center {
+                    z-index: 10;
+                    -webkit-transform: scale(1.1);
+                    -moz-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                    -o-transform: scale(1.1);
+                    transform: scale(1.1);
+                    -webkit-box-shadow: var(--shadow-dark);
+                    -moz-box-shadow: var(--shadow-dark);
+                    box-shadow: var(--shadow-dark);
                 }
             }
         }

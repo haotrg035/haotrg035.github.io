@@ -127,25 +127,9 @@
             </h2>
             <div class="section-content row">
                 <div class="col-lg-4">
-                    <div class="section-item">
+                    <div class="section-item pricing-left">
                         <figure class="section-item-top-icon">
-                            #1
-                        </figure>
-                        <h5 class="section-item-title">THIẾT KẾ WEBSITE</h5>
-                        <div class="section-item-content text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, libero vero.
-                        </div>
-                        <div class="section-item-footer">
-                            <a href="javascript:void(0)" class="btn btn-watch">
-                                <span class="">CHI TIẾT</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="section-item">
-                        <figure class="section-item-top-icon">
-                            #2
+                            <i class="fa fa-line-chart" aria-hidden="true"></i>
                         </figure>
                         <h5 class="section-item-title">ONLINE MARKETING</h5>
                         <div class="section-item-content text-justify">
@@ -162,9 +146,25 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="section-item">
+                    <div class="section-item pricing-center">
                         <figure class="section-item-top-icon">
-                            #3
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </figure>
+                        <h5 class="section-item-title">THIẾT KẾ WEBSITE</h5>
+                        <div class="section-item-content text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, libero vero.
+                        </div>
+                        <div class="section-item-footer">
+                            <a href="javascript:void(0)" class="btn btn-watch">
+                                <span class="">CHI TIẾT</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section-item pricing-right">
+                        <figure class="section-item-top-icon">
+                            <i class="fa fa-server" aria-hidden="true"></i>
                         </figure>
                         <h5 class="section-item-title">HOSTING - SERVER</h5>
                         <div class="section-item-content text-justify">

@@ -1,6 +1,6 @@
 $(document).ready(function ($) {
 
-    let homeAboutPost = $('#home-about').offset().top - 80;
+    let homeAboutPost = $('#home-about').offset().top - 102;
 
     $('#page-header').sticky({
         topSpacing: 0,
