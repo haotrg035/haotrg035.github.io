@@ -1,7 +1,10 @@
 $(document).ready(function ($) {
 
+<<<<<<< HEAD
     let homeAboutPost = $('#home-about').offset().top - 102;
 
+=======
+>>>>>>> 2965824254407001e9bf659c7f49879b08d5c7c0
     $('#page-header').sticky({
         topSpacing: 0,
         widthFromWrapper: false
@@ -13,6 +16,7 @@ $(document).ready(function ($) {
 
     $('#page-header #page-menu .form-nav-search label').on('click', function (e) {
         $(this).siblings('input').toggleClass('show');
+<<<<<<< HEAD
     });
 
     $('#nav-background').on('click', function (e) {
@@ -32,4 +36,7 @@ $(document).ready(function ($) {
         $('html, body').animate({scrollTop: homeAboutPost}, 500);
     });
 
+=======
+    })
+>>>>>>> 2965824254407001e9bf659c7f49879b08d5c7c0
 });

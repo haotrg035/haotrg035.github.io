@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 .idea/
+=======
+*.php
+.idea
+.idea/*
+
+
+>>>>>>> 2965824254407001e9bf659c7f49879b08d5c7c0
 vendor/
 node_modules/
 npm-debug.log

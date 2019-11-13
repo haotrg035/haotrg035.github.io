@@ -28,7 +28,11 @@
     --size-nav-item-font-scroll: 16px;
     --size-nav-logo-font: calc(var(--size-nav-item-font) * 1.618);
     --size-nav-logo-font-scroll: calc(var(--size-nav-item-font-scroll) * 1.618);
+<<<<<<< HEAD
     --transition-nav: all .1s ease;
+=======
+    --transition-nav: all .15s ease-in-out;
+>>>>>>> 2965824254407001e9bf659c7f49879b08d5c7c0
     --transition-section-item: all .5s ease-in-out;
     --color-nav-bg: var(--color-base);
     --color-nav-bg-dark: var(--color-base-darker);
